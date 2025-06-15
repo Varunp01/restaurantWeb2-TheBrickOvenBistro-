@@ -348,6 +348,10 @@ export default function RestaurantLanding() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="space-y-8">
+            <div className="text-center">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-1">Dine-in & bar seating available</h3>
+                  <p className="text-gray-600">Walk-ins welcome | Group reservations encouraged</p>
+                </div>
               <div className="flex items-start">
                 <MapPin className="w-6 h-6 text-orange-600 mr-4 mt-1" />
                 <div>
@@ -387,10 +391,7 @@ export default function RestaurantLanding() {
                   </div>
                 </div>
               </div>
-              <div className="text-center">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-1">Dine-in & bar seating available</h3>
-                  <p className="text-gray-600">Walk-ins welcome | Group reservations encouraged</p>
-                </div>
+              
               
             </div>
 
