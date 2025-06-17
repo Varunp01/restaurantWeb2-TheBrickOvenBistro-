@@ -184,7 +184,7 @@ export default function RestaurantLanding() {
         />
         <div className="relative z-20 text-center text-white px-4">
           <img src="\LogoText1.png" alt="Savoria Logo" className="h-32 rounded-md mx-auto" />
-          <p className="font-[Corsiva] text-xl md:text-2xl mt-8 mb-8 max-w-2xl mx-auto"> we bring together fresh-made food, laid-back vibes, and the warmth of good company. Nestled inside Q Center, it’s where comfort meets craft—whether you're winding down after a meeting or sharing a meal with friends.</p>
+          <p className="font-[Corsiva] text-xl md:text-2xl mt-8 mb-8 max-w-2xl mx-auto"> We bring together fresh-made food, laid-back vibes, and the warmth of good company. Nestled inside Q Center, it’s where comfort meets craft—whether you're winding down after a meeting or sharing a meal with friends.</p>
           <div className="flex mx-auto  justify-center">
             <div className=""><Utensils className="w-8 h-8 text-orange-600" /></div>
             <h3 className="text-xl md:text-2xl mb-8 max-w-2xl ">&nbsp;&nbsp;&nbsp;Handcrafted pizzas from our brick oven</h3>
@@ -261,13 +261,13 @@ export default function RestaurantLanding() {
             ))}
           </div>
           <div className="text-center mt-6">
-          <button
-            onClick={() => scrollToSection("contact")}
-            className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-colors duration-200 transform hover:scale-105"
-          >
-            Plan Your Event With Us
-          </button>
-        </div>
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-colors duration-200 transform hover:scale-105"
+            >
+              Plan Your Event With Us
+            </button>
+          </div>
         </div>
       </section>
 
@@ -305,12 +305,30 @@ export default function RestaurantLanding() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Bar Experience</h2>
               <p className="text-lg text-gray-600 mb-6">
+                Step into our bar for a mix of familiar and bold. Whether you're after a local craft beer or a signature cocktail, we pour with care and creativity.
+              </p>
+              {/* <p className="text-lg text-gray-600 mb-6">
                 Step into our sophisticated bar area where expert mixologists craft exceptional cocktails using premium
                 spirits and fresh, locally-sourced ingredients. Whether you're looking for a classic cocktail or
                 something uniquely Savoria, our bar offers the perfect atmosphere for any occasion.
-              </p>
+              </p> */}
               <div className="space-y-4">
                 <div className="flex items-center">
+                  <span className="text-gray-700"><b>Guest favorites include:</b></span>
+                </div>
+                <div className="flex items-center">
+                  <Wine className="w-6 h-6 text-orange-600 mr-3" />
+                  <span className="text-gray-700">Good Vibrations – CBD-infused gin cocktail</span>
+                </div>
+                <div className="flex items-center">
+                  <Wine className="w-6 h-6 text-orange-600 mr-3" />
+                  <span className="text-gray-700">PB&B – Peanut butter bourbon with a sweet twist</span>
+                </div>
+                <div className="flex items-center">
+                  <Wine className="w-6 h-6 text-orange-600 mr-3" />
+                  <span className="text-gray-700">Local draft beers including Q Brew Pale Ale</span>
+                </div>
+                {/* <div className="flex items-center">
                   <Wine className="w-6 h-6 text-orange-600 mr-3" />
                   <span className="text-gray-700">Signature craft cocktails</span>
                 </div>
@@ -321,7 +339,7 @@ export default function RestaurantLanding() {
                 <div className="flex items-center">
                   <Wine className="w-6 h-6 text-orange-600 mr-3" />
                   <span className="text-gray-700">Premium spirits collection</span>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="relative">
@@ -348,10 +366,10 @@ export default function RestaurantLanding() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="space-y-8">
-            <div className="text-center">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-1">Dine-in & bar seating available</h3>
-                  <p className="text-gray-600">Walk-ins welcome | Group reservations encouraged</p>
-                </div>
+              <div className="text-center">
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">Dine-in & bar seating available</h3>
+                <p className="text-gray-600">Walk-ins welcome | Group reservations encouraged</p>
+              </div>
               <div className="flex items-start">
                 <MapPin className="w-6 h-6 text-orange-600 mr-4 mt-1" />
                 <div>
@@ -370,7 +388,7 @@ export default function RestaurantLanding() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
                   <p className="text-gray-600">(630) 377‑3100</p>
                 </div>
-                </div>
+              </div>
 
               <div className="flex items-start">
                 <Mail className="w-6 h-6 text-orange-600 mr-4 mt-1" />
@@ -391,8 +409,8 @@ export default function RestaurantLanding() {
                   </div>
                 </div>
               </div>
-              
-              
+
+
             </div>
 
             {/* Contact Form */}
@@ -472,7 +490,7 @@ export default function RestaurantLanding() {
               </div>
             </div>
 
-            
+
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
